@@ -1,0 +1,116 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background: #575445;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer img{
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.footer-lists{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-lists ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-lists ul h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #E6B939;
+}
+
+.footer-lists ul li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+
+
+    color: #FFFFFF;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contact h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #E6B939;
+}
+
+.footer-contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFC;
+}
+
+.footer-contact span{
+    width: 35%;
+    display: flex;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.footer-contact span button{
+    background: #575445;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid transparent;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-contact span input{
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.footer-sites{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    margin-top: 15px;
+}

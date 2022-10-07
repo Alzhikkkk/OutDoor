@@ -38,7 +38,7 @@ function Footer(){
                      </ul>
                  </span>
 
-                 <span className='footer-contac'>
+                 <span className='footer-contact'>
                     <h3>Newsletter</h3>
                     <p>Subscribe to our (infrequent) newsletter where we share news about upcoming listings and projects.</p>
                     <span>
