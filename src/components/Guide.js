@@ -2,6 +2,7 @@ import hiking from '../assets/hiking.png'
 import Alex from '../assets/Alex.png'
 import cycling from '../assets/cycling.png'
 import Woodie from '../assets/Woodie.png'
+import arrow from '../assets/Path.svg';
 function Guide() {
     return (
       <section className='guide container'>
@@ -10,7 +11,7 @@ function Guide() {
                 <h2>Navigating our offering.</h2>
                 <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
            </span>
-           <div className="quides">
+           <div className="guides">
                 <span>
                     <img src={hiking} alt="Alex"/>
                     <p>3 climbing accessories for the climber that has everything</p>
@@ -43,6 +44,8 @@ function Guide() {
                     </span>
                 </span>     
             </div>
+
+            <i className='show'>Show All Categories<img src={arrow} alt="Arrow"/></i>
       </section>
     );
   }
