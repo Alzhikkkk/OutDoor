@@ -12,6 +12,7 @@ function Main() {
            <Promise></Promise>
            <Card></Card>
            <Shop></Shop>
+           <Guide></Guide>
       </main>
     );
   }
