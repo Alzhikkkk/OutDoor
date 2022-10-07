@@ -1,0 +1,104 @@
+.card-lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 34px;
+    gap: 50px;
+
+
+}
+
+.card-lists--item h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #575445;
+}
+
+.card-lists--item p, i{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 140% */
+
+    text-align: center;
+
+    color: #575445;
+}
+
+.card-lists--item i, .show{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .4s;
+}
+
+
+.card-lists--item i>img, .show>img{
+    transition: .4s;
+}
+
+.card-lists--item i:hover img, .show:hover>img{
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.card-lists--item{
+    width: 30%;
+    height: 470px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.card-lists--item:first-child{
+    background-image: url('../../assets/compas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-lists--item:nth-child(2){
+    background-image: url('../../assets/man.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-lists--item:nth-child(3){
+    background-image: url('../../assets/climb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-lists--item:nth-child(4){
+    background-image: url('../../assets/sit.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-lists--item:nth-child(5){
+    background-image: url('../../assets/shoe.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-lists--item:nth-child(6){
+    background-image: url('../../assets/walk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

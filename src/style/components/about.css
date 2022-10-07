@@ -1,0 +1,54 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 105px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.about span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about span h3{
+letter-spacing: 2px;
+text-transform: uppercase;
+font-size: 19px;
+color: #E6B939;
+}
+
+.about span h2{
+    font-size: 46px;
+    line-height: 43px;
+    color: #575445;
+}
+
+.about span p{
+    font-size: 25px;
+    line-height: 23px;
+    color: #575445;
+    width: 100%;
+}
+
+.about span a{
+    display: flex;
+    gap: 10px;
+}
+
+.about span a>img{
+    transition: .4s;
+}
+
+.about span a:hover >img{
+    margin-left: 10px;
+    transition: .4s;
+}
