@@ -52,3 +52,37 @@ color: #E6B939;
     margin-left: 10px;
     transition: .4s;
 }
+
+
+
+@media (max-width:1278px) {
+    .view-text{
+        align-items: center;
+        width: 60% !important;
+        text-align: center;
+    }
+    .view{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1225px) {
+    .about{
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media (max-width: 670px) {
+   .about span p{
+       font-size: 12px;
+   }   
+
+   .about > img{
+        width: 100%;
+    }
+
+    .about span h2{
+        font-size: 35px;
+    }
+}

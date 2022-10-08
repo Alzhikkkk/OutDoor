@@ -39,8 +39,8 @@ function Card() {
                     <p>Our jackets are perfect for every season.</p>
                     <i>View Jackets<img src={arrow} alt="Arrow"/></i>
                 </span>
-                <i className='show'>Show All Categories<img src={arrow} alt="Arrow"/></i>
            </div>
+           <i className='show'>Show All Categories<img src={arrow} alt="Arrow"/></i>
       </section>
     );
   }

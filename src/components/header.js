@@ -1,5 +1,6 @@
 import logo from '../assets/logo.png'
 import cart from '../assets/Vector.svg'
+import menu from '../assets/menu.png'
 import styled from 'styled-components'
 
 export const Button = styled.button`
@@ -38,7 +39,9 @@ function Header() {
                 <Button>Shop Now</Button>
                 <Button><img src={cart} alt="Cart"/>Cart</Button>
             </span>
+            
           </div>
+          <img src={menu} className="burger" alt="Menu"/>
 
       </header>
     );

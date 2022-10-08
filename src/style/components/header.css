@@ -31,3 +31,18 @@
     display: flex;
     gap: 30px;
 }
+
+.burger{
+    width: 20px;
+    display: none;
+}
+
+@media (max-width:1277px) {
+    .burger{
+        display: inline;
+    }
+
+    .list{
+        display: none;
+    }
+}

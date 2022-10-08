@@ -93,3 +93,32 @@
     color: #FAFAFC;
     width: 30%;
 }
+
+@media (max-width: 1330px) {
+    .shop-info--item{
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 3%;
+    }
+}
+
+@media (max-width: 520px) {
+    .shop-info--item{
+        padding: 6%;
+    }
+}
+
+@media (max-width: 770px) {
+    .shop-check p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .shop-check h2{
+        font-size: 28px;
+    }
+}

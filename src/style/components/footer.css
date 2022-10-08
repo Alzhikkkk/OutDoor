@@ -114,3 +114,10 @@
     color: #fff;
     margin-top: 15px;
 }
+
+@media (max-width: 1540px) {
+    .footer-contact span{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

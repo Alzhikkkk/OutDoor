@@ -102,3 +102,23 @@
     background-position: center;
     background-size: cover;
 }
+
+@media(max-width:900px) {
+    .card-lists--item{
+        width: 50%;
+    }
+    
+    .promise-title p{
+        width: 50%;
+    }
+}
+
+@media(max-width:567px) {
+    .card-lists--item{
+        width: 100%;
+    }
+    
+    .promise-title p{
+        width: 50%;
+    }
+}
